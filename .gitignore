@@ -1,5 +1,17 @@
-node_modules
-# Keep environment variables out of version control
-.env
+node_modules/
+dist/
 
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Prisma generated files
 /src/generated/prisma
+
+# AWS/Lambda junk we created
+lambda-package/
+*.zip
+
+# macOS
+.DS_Store

@@ -14,15 +14,19 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@prisma/adapter-pg": "^7.10.0",
     "@prisma/client": "^7.7.0",
     "bcrypt": "^6.0.0",
     "express": "^5.2.1",
     "graphql": "^16.13.2",
     "graphql-yoga": "^5.21.0",
+    "pg": "^8.23.0",
     "plaid": "^45.0.0",
-    "prisma": "^7.7.0"
+    "prisma": "^7.7.0",
+    "serverless-http": "^4.0.0"
   },
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.164",
     "@types/bcrypt": "^6.0.0",
     "@types/express": "^5.0.6",
     "@types/node": "^25.6.0",
